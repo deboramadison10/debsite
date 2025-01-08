@@ -1,7 +1,7 @@
 import React from 'react';
-import './Navbar.css';
+import './navBar.css';
 
-const Navbar = () => {
+const NavBar = () => {
     return (
         <nav className="navbar">
             <div className="logo">
@@ -19,4 +19,4 @@ const Navbar = () => {
     );
 };
 
-export default Navbar;
+export default NavBar;
