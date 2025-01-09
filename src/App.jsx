@@ -3,6 +3,7 @@
 import './App.css';
 import NavBar from './components/navBar.jsx';
 import HomePage from './components/homePage.jsx';
+import Footer from './components/footer.jsx';
 
 const App = () => {
     return(
@@ -11,6 +12,7 @@ const App = () => {
                 <NavBar/>
             </div>
             <HomePage/>
+            <Footer/>
         </div>
     )
 }

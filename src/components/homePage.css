@@ -2,7 +2,7 @@
     position: relative;
     height: 90vh;
     width: 100vw;
-    overflow: hidden;
+    overflow: auto;
 }
 
 .videoBackground {
@@ -37,4 +37,34 @@
 .overlay p {
     font-size: 1.5rem;
     margin-top: 10px;
+}
+
+.secondSlide{
+    margin-top: 20vh;
+    margin-bottom: 70vh;
+    min-width: 100vw;
+    max-width: 100vw;
+    position: relative;
+    z-index: 1;
+    display: flex;
+    flex-direction: row;
+}
+.secondSlide .contextText{
+    max-width: 50vw;
+}
+.secondSlide h1{
+    font-size: 3rem;
+    color: #10B48E;
+    margin-left: 5vw;
+    text-align: left;
+}
+.secondSlide p{
+    font-size: 1.5rem;
+    text-align: left;
+    color: #B8DEA4;
+    margin-left: 5vw;
+}
+.secondSlide img {
+    max-width: 50vw;
+    height: auto;
 }
