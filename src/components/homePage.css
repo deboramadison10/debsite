@@ -1,5 +1,40 @@
 .homePage {
-    color: #8FDBD8;
+    position: relative;
+    height: 90vh;
+    width: 100vw;
+    overflow: hidden;
+}
+
+.videoBackground {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    object-fit: cover;
+    z-index: 1;
+}
+
+.overlay {
+    position: relative;
+    height: 90vh;
+    display: flex;
     flex-direction: column;
-    align-content: center;
+    justify-content: center;
+    align-items: center;
+    color: #10B48E;
+    text-align: center;
+    z-index: 1;
+}
+
+.overlay h1 {
+    font-size: 3rem;
+    margin: 0;
+    z-index: 2;
+    padding-top: 20vh;
+}
+
+.overlay p {
+    font-size: 1.5rem;
+    margin-top: 10px;
 }

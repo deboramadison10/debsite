@@ -7,7 +7,9 @@ import HomePage from './components/homePage.jsx';
 const App = () => {
     return(
         <div>
-            <NavBar/>
+            <div className={"NavBar"}>
+                <NavBar/>
+            </div>
             <HomePage/>
         </div>
     )

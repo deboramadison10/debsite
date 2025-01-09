@@ -19,3 +19,7 @@ body{
   display: flex;
   font-family: 'Corben', serif;
 }
+.NavBar {
+  padding-top: 10vh;
+  position: relative;
+}
