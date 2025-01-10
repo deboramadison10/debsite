@@ -20,6 +20,7 @@ const HomePage = () => {
                     <p>I am a senior graduating in May 2025 with a degree in Computer Science from Missouri University of Science and Technology.</p>
                     <p>I have a deep passion for web and graphic design, and I aspire to become a front-end developer, creating beautifully crafted and creative websites. </p>
                     <p>In my free time, I enjoy spending quality moments with my family, traveling, and capturing memories with my film cameras.</p>
+                    <button className="button-77" role="button">Contact Me</button>
                 </div>
                 <img src={aboutImg} alt="aboutImg"/>
             </div>

@@ -7,7 +7,8 @@
     "dev": "vite",
     "build": "vite build",
     "lint": "eslint .",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "homepage": "https://deboramadison10.github.io/debsite"
   },
   "dependencies": {
     "react": "^18.3.1",
@@ -26,3 +27,4 @@
     "vite": "^6.0.5"
   }
 }
+
