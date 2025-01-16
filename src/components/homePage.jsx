@@ -1,7 +1,7 @@
 import React from "react";
 import './homePage.css';
 import videoBackground from '../assets/homePage_background.mp4';
-import aboutImg from '../assets/aboutDeb.png';
+import aboutImg from '../assets/aboutDeb.svg';
 
 const HomePage = () => {
     return (
