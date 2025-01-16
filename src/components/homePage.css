@@ -29,6 +29,7 @@
 
 .overlay h1 {
     font-size: 3rem;
+    text-transform: capitalize;
     margin: 0;
     z-index: 2;
     padding-top: 20vh;
@@ -41,7 +42,7 @@
 
 .secondSlide{
     margin-top: 20vh;
-    margin-bottom: 70vh;
+    margin-bottom: 20vh;
     min-width: 100vw;
     max-width: 100vw;
     position: relative;
@@ -54,6 +55,7 @@
 }
 .secondSlide h1{
     font-size: 3rem;
+    font-weight: normal;
     color: #10B48E;
     margin-left: 5vw;
     text-align: left;
@@ -168,3 +170,9 @@
         cursor: default;
         opacity: .24;
     }
+
+.thirdSlide h1{
+    color: #c5b6e0;
+    text-transform: uppercase;
+    font-weight: normal;
+}
