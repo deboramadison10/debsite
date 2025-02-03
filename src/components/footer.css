@@ -15,7 +15,7 @@
 }
 
 .contact-info{
-    padding-right: 70px;
+    padding-right: 60px;
 }
 
 .contact-info h1{
@@ -51,4 +51,8 @@
     width: 45px;
     height: 45px;
     margin: 15px 7.5px;
+}
+.trademark p{
+    padding-right: 40px;
+    margin-top: 5vh;
 }

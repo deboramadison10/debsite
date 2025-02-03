@@ -11,7 +11,9 @@ const Footer = () => {
                 <p>Email: debmadison10@gmail.com</p>
                 <p>Discord: debae10</p>
             </div>
+            <div className="trademark">
             <p>Proudly Developed by Me, Myself, and I</p>
+            </div>
             <div className="connect-info">
                 <h1>CONNECT</h1>
                 <div className="logos">
