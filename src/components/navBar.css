@@ -13,7 +13,7 @@
     z-index: 100;
 }
 /* Navigation links */
-.nav-links {
+.nav {
     list-style: none;
     display: flex;
     gap: 1.5rem;
@@ -23,14 +23,14 @@
     text-transform: uppercase;
 }
 
-.nav-links a {
+.nav a {
     text-decoration: none;
     color: #ffffff; /* Black for text */
     font-size: 1rem;
     transition: color 0.3s ease;
 }
 
-.nav-links a:hover {
+.nav a:hover {
     color: #ff6dbf; /* Pink color on hover */
 }
 

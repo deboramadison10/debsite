@@ -8,7 +8,7 @@ import Footer from "./footer.jsx";
 
 const HomePage = () => {
     return (
-        <div className="homePage">
+        <div id="homePage" className="homePage">
             <video className="videoBackground" autoPlay muted>
                 <source src={videoBackground} type="video/mp4"/>
                 Your browser does not support the video tag.
@@ -39,7 +39,7 @@ const HomePage = () => {
                 </div>
                 <img src={aboutImg} alt="aboutImg"/>
             </div>
-            <div id="projects">
+            <div id="projects" className="projects">
                 <div className="carouselSlide">
                     <h1>Projects</h1>
                     <div className="carouselContainer">
@@ -105,6 +105,9 @@ const HomePage = () => {
                         </div>
                     </div>
                 </div>
+            </div>
+            <div id="footer" style={{paddingTop: '60px'}}>
+                <Footer/>
             </div>
         </div>
     );
